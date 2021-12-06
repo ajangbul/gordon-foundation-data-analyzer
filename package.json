@@ -13,12 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csv-parser": "^3.0.0",
-    "esm": "^3.2.25"
+    "csv-parser": "^3.0.0"
   },
-  "include": [
-    "src/**/*"
-  ],
   "devDependencies": {
     "jest": "^27.4.3"
   }
