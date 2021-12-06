@@ -13,7 +13,6 @@ export const processData = async (FILE_PATH=join(process.cwd(), FILE_PATH), loca
       resultValue.push(parseFloat(data.ResultValue, 10));
     }
   });
-  console.log(calculateAverage(resultValue))
 
   return calculateAverage(resultValue);
 };
