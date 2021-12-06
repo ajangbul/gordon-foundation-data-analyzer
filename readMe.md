@@ -7,7 +7,7 @@ The program takes in csv file and a ```MonitoringLocationID``` inputs, and outpu
 
 ### How to run the program:
 
-# 1. Clone the bank repository
+# 1. Clone this repository
 git clone https://github.com/ajangbul/gordon-foundation-data-analyzer.git
 
 # 2. Install dependencies
