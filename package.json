@@ -1,0 +1,25 @@
+{
+  "name": "gordon-foundation-data-analyzer",
+  "version": "1.0.0",
+  "description": "calculate and output the average of temperature-water",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest -i --colors --verbose --detectOpenHandles",
+    "test:watch": "jest -i --watchAll",
+    "coverage": "jest -i --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "esm": "^3.2.25"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
